@@ -1,0 +1,25 @@
+{
+  "name": "sute_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cxw": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^9.4.1"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8",
+    "inquirer": "^9.1.4",
+    "install": "^0.13.0",
+    "open": "^8.4.0"
+  }
+}
